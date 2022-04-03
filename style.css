@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+html, ul, li, form, fieldset, legend, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Comfortaa", cursive;
+  margin: 0 auto;
+}
+
+.container {
+  border: 1px solid #2d2d2d;
+  text-align: center;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  animation: changeColor 7s infinite alternate;
+}
+
+.h2 {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+@keyframes changeColor {
+  0% {
+    color: indigo;
+  }
+  20% {
+    color: blue;
+  }
+  40% {
+    color: green;
+  }
+  60% {
+    color: yellow;
+  }
+  80% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.btn {
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  border: none;
+  color: white;
+  background-color: rgb(236, 236, 55);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+
+.hex-colors {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(218, 218, 91);
+}
+
+.btn:active {
+  background-color: rgb(218, 218, 91);
+  box-shadow: inset 0 0 7px 0 rgb(146, 140, 140);
+}
