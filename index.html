@@ -2,46 +2,49 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/a812ab7cf0.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Arthur Khachatrian</title>
 </head>
 <body class="body">
-  <script src="https://kit.fontawesome.com/a812ab7cf0.js" crossorigin="anonymous"></script>
+  <header>
 
-  <div class="container" id="container">
-    <div class="hex-colors">
-      <h1 class="h1">Добро пожаловать на мой сайт. Если тебе скучно на данный момент, то не стесняйся, пиши мне. Живи и наслаждайся жизьню!</h1>
-      <h2 class="h2">Кстати, выбирай свой цвет настроения! Номер данного настроения: #<span id="hex-code">FFFFFF</span></h2>
-      <button onclick="changeColor()" type="button" class="btn btn-warning">Нажми на меня!</button>
+  </header>
+  <main>
+    <div class="container" id="container">
+      <div class="hex-colors">
+        <h1 class="h1">Добро пожаловать на мой сайт. Если тебе скучно на данный момент, то не стесняйся, пиши мне. Живи и наслаждайся жизьню!</h1>
+        <h2 class="h2">Кстати, выбирай свой цвет настроения! Номер данного настроения: #<span id="hex-code">FFFFFF</span></h2>
+        <button onclick="changeColor()" type="button" class="btn btn-warning">Нажми на меня!</button>
+      </div>
     </div>
-  
+
     <div class="photo-section">
       <div class="image fade">
-        <img src="assets/img/beach.png" alt="I'm in the beach">
+        <img class="photo" src="assets/img/beach.png" alt="I'm in the beach">
       </div>
       <div class="image fade">
-        <img src="assets/img/leaf-fall.jpg" alt="Leaf fall">
+        <img class="photo" src="assets/img/leaf-fall.jpg" alt="Leaf fall">
       </div>
       <div class="image fade">
-        <img src="assets/img/moscow.png" alt="I'm in Moscow">
+        <img class="photo" src="assets/img/moscow.png" alt="I'm in Moscow">
       </div>
       <div class="image fade">
-        <img src="assets/img/the-north-face.jpg" alt="Just me">
+        <img class="photo" src="assets/img/the-north-face.jpg" alt="Just me">
       </div>
       <div class="image fade">
-        <img src="assets/img/thailand.jpg" alt="I'm in Phi-Phi">
+        <img class="photo" src="assets/img/thailand.jpg" alt="I'm in Phi-Phi">
       </div>
       <div class="image fade">
-        <img src="assets/img/car.png" alt="After traning">
+        <img class="photo" src="assets/img/car.png" alt="After traning">
       </div>
       <div class="image fade">
-        <img src="assets/img/kazan.jpg" alt="Me in Kazan">
+        <img class="photo" src="assets/img/kazan.jpg" alt="Me in Kazan">
       </div>
 
       <img id="prev" onclick="show_image(-1)" class="imgg" src="assets/img/angle-left-solid.svg" alt="back">
       <img id="next" onclick="show_image(1)" class="imgg" src="assets/img/angle-right-solid.svg" alt="next">
-
       <div class="dots">
         <span class="dot"></span>
         <span class="dot"></span>
@@ -52,7 +55,9 @@
         <span class="dot"></span>
       </div>
     </div>
-  </div>
+  </main>
+
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/image.js"></script>
 </body>
 </html>
