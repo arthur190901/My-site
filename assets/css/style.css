@@ -186,3 +186,12 @@ html, ul, li, form, fieldset, legend, h1, h2, h3 {
     opacity: 0;
   }
 }
+
+.type-section {
+  width: 900px;
+  height: 110px;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: #717171 5px solid;
+  box-shadow: 5px 0 10px black;
+}
